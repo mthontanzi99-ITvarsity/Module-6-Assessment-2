@@ -1,0 +1,247 @@
+html{
+    height:100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /*background-color: #efefef;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ============ header ============= */
+#header{
+    height: 180px;
+    padding: 40px;
+    text-align: center;
+    background-color: #212224;
+    color: white;
+}
+/* ============ navigation ============= */
+#navigation{
+    top: 180px;
+    background-color: darkgreen;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+    height: 55px;
+    width:100%;
+}
+#navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#navigation li{
+    display: inline-block;
+}
+#navigation a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    float:left;
+    border:none;
+    Display: block;
+    padding: 30px 60px 5px 60px;
+}
+#navigation a:hover{
+    background-color: rgb(36, 102, 36)
+}
+
+/* ============= main ============== */
+#main{
+    padding: 20px;
+}
+#main h2{
+    font-weight: 300;
+    font-size: 28px;
+    color:darkslategrey;
+}
+
+#main h3{
+    font-weight: 300;
+    font-size: 18px;
+    color:darkslategrey;
+}
+/* ============ content ============ */
+#content{
+    width: 70%;
+    float: left;
+    border-right: 1px solid #efefef;
+    padding-right: 10px;
+}
+/* ============ sidebar ============ */
+#sidebar{
+    width: 25%;
+    float: right;
+}
+#sidebar ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+#sidebar ul li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+#sidebar a{
+    text-decoration: none;
+    color: #b3b3b3
+}
+#gallery{
+    clear: both;
+    width:100%;
+}
+#gallery img{
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#gallery img:hover{
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+}
+
+/* ============ cars ============= */
+#car1{
+    border-top: solid 1.5px #e5e5e5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#car1 img{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+
+#car2{
+    border-top: solid 1.5px #e5e5e5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#car2 img{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+
+#car3{
+    border-top: solid 1.5px #e5e5e5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#car3 img{
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+}
+
+.car-page p{
+    width: 70%;
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
+
+/* ============ footer ============= */
+#footer{
+    height: 250px;
+    padding: 40px;
+    text-align: center;
+    background-color: #212224;
+    margin-bottom: 0;
+    clear:both;
+    color:white;
+}
+#box1{
+    width:45%;
+    float:left;
+    padding-left: 5%;
+}
+#box1 p{
+    color:white;
+}
+
+#box1 ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+#box1 ul li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+#box1 a{
+    text-decoration: none;
+    color: #b3b3b3
+}
+
+#box2{
+    width:45%;
+    float:right;
+    padding-right: 20px;
+}
+/* ============ copyright ============= */
+#copyright{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    height: 70px;
+}
+
+/* ============ contact_us ============= */
+.contact_us{
+    width:60%;
+}
+/*==================Forms================*/
+input{
+    width:100%;
+    height:20px;
+    margin: 12px 0;
+}
+textarea{
+    width:100%;
+    height:80px;
+    margin:12px 0;
+}
+#order h3{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.feedback{
+    min-height: 600px;
+    text-align: center;
+}
+.feedback img{
+    width: 550px;
+    height: 400px;
+}
+
+/* ============ responsive layout ============= */
+@media only screen and (max-width:600px){
+    #navigation a{
+        text-decoration: none;
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        float:left;
+        border:none;
+        Display: block;
+        padding: 30px 30px 2px 30px;
+    
+    }
+}
